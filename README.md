@@ -8,13 +8,13 @@
 
 ## Techniques & Procedures
 
-### Data Cleaning Process:
+#### Data Cleaning Process:
 
-### Data Modeling:
+#### Data Modeling:
 
-### Calculated Columns:
+#### Calculated Columns:
 
-### Key Measures:
+#### Key Measures:
 
-### Data Exploration and Visualization:
+#### Data Exploration and Visualization:
 

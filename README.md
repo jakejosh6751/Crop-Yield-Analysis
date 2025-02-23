@@ -15,41 +15,27 @@ ANALYSIS:
 
 ## Techniques & Procedures
 
-#### Data Cleaning Process:
+#### Data Cleaning and Transformation:
 
-Data Transformation
+Renamed headers:
 
-HEADERS:
-
-Null column header (index) to Farm ID
-
-Area to Region
-
-Item to Crop Type
-
-hg/ha_yield to Yield (ton per hectare) and using the Transform > Standard > Divide to convert hg (hectogram) to ton by dividing by 10,000. [1 ton = 10,000 ha]
-
-average_rain_fall_mm_per_year to Average Rainfall (mm per year)
-
-pesticides_tonnes to Pesticide (ton)
-
-avg_temp to Average Temperature
+- Null column header (index) to Farm ID
+- Area to Region
+- Item to Crop Type
+- hg/ha_yield to Yield (ton per hectare) and using the Transform > Standard > Divide to convert hg (hectogram) to ton by dividing by 10,000. [1 ton = 10,000 ha]
+- average_rain_fall_mm_per_year to Average Rainfall (mm per year)
+- pesticides_tonnes to Pesticide (ton)
+- avg_temp to Average Temperature
 
 
 
-VALUES (in the Crop Type column): Used Transform > Replace Values;
-
-Plantains and others to Plantain & Others
-
-Potatoes to Potato
-
-Rice, paddy to Rice Paddy
-
-Soybeans to Soybean
-
-Sweet Potatoes to Sweet Potato
-
-Yams to Yam
+Renamed Values (in the Crop Type column) using Transform > Replace Values;
+- Plantains and others to Plantain & Others
+- Potatoes to Potato
+- Rice, paddy to Rice Paddy
+- Soybeans to Soybean
+- Sweet Potatoes to Sweet Potato
+- Yams to Yam
 
 
 
